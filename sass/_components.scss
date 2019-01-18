@@ -165,11 +165,10 @@
     }
 
     &__icon {
-        width: 1.75rem;
-        height: 1.75rem;
+        width: 3rem;
+        height: 3rem;
         margin-right: 2rem;
         fill: currentColor;
-        
     }
 }
 
@@ -192,4 +191,47 @@
         height: 30rem;
         display: block;
     }
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey-light-2);
+
+    &__heading {
+        font-size: 2.25rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
+    }
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        width:1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location{
+        
+    }
+
+    &__rating {
+
+    }
+
+    &__rating-count {
+        
+    }
+
+    &__rating-averagexs {
+        
+    }
+
+    
 }
